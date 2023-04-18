@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --cor0:hsl(185, 75%, 39%);
+    --cor1:hsl(229, 23%, 23%);
+    --cor2:hsl(227, 10%, 46%);
+    --cor3:hsl(0, 0%, 59%);
+    --fonte-padrao: 'Kumbh Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    body{
+        background-color: var(--cor0);
+        font-family: var(--fonte-padrao);
+        font-size: 18px;
+    }
+    
+    #fora {
+        height: 96vh;
+        background-color: var(--cor0);
+        position: relative;
+    }
+
+    #dentro {
+        height: 350px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+        border-radius: 10px;
+    }
+
+    .foto {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .nome {
+        font-family: var(--fonte-padrao);
+        font-size: 18px;
+    }
+
+    section strong {
+        color: var(--cor1);
+        font-weight: bold;
+    }
+
+    .titulo {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pais {
+        color: var(--cor3);
+        font-weight: normal;
+        text-align: center; 
+    }
+
+    hr {
+        color: var(--cor3);
+    }
+
+    .container {
+        display: flex;
+        max-width: 400px;
+    }
+
+    .item {
+        font-size: 18px;
+        font-family: var(--fonte-padrao);
+        font-weight: 700;
+        margin: 5px;
+        align-self: stretch;
+        text-align: center;
+        flex:1;
+    }
+
+    .container strong {
+        color: black;
+    }
+
+    .followers {
+        color: var(--cor3);
+        font-weight: 400;
+    }
+
+    .likes {
+        color: var(--cor3);
+        font-weight: 400;
+    }
+
+    .photos {
+        color: var(--cor3);
+        font-weight: 400;
+    }
