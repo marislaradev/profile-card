@@ -30,7 +30,7 @@ Construir o componente de perfil e deixá-lo o mais próximo possível do design
 
 ## Acesse a página do projeto, abaixo 📱
 
-🔗https://marislaradev.github.io/desafio-dev-card/
+🔗https://marislaradev.github.io/profile-card/
 
 **Faça você também o desafio!** 🔽
 
