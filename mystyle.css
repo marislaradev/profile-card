@@ -19,20 +19,19 @@
         height: 100vh;
         background-color: var(--cor0);
         background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
-        background-repeat: no-repeat, no-repeat;
-        background-position: left -500px, right 500px;
-        background-size: contain, contain;
+        background-repeat: no-repeat;
+        background-position: left -450px, right 550px;
+        background-size: auto;
         font-family: var(--fonte-padrao);
-        font-size: 20px;
+        font-size: 1.5rem;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     
     .profile-card {
-        width: 500px;
-        height: 500px;
+        width: 450px;
+        height: fit-content;
         border-radius: 15px;
         position: relative;
         background-color: white;
@@ -62,7 +61,6 @@
     .profile-picture img {
         width: 100%;
         height: auto;
-        display: block;
         border-radius: 50%;
     }
 
@@ -74,8 +72,9 @@
         padding: 70px 0px 40px 0px;
     }
 
-    .country {
-        padding: 5px 0px 0px 0px;
+    .letter-spacing {
+        padding-top: 10px;
+        letter-spacing: 1.5px;
     }
 
     .font-lighter {
@@ -87,11 +86,11 @@
     }
 
     .font-small {
-        font-size: 15px;
+        font-size: 1rem;
     }
 
     .profile-data {
-        padding: 40px;
+        padding: 30px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
