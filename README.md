@@ -11,7 +11,7 @@ Construir o componente de perfil e deixá-lo o mais próximo possível do design
 
 **Meu projeto:**
 
-![projeto-profile-card](https://github.com/marislaradev/desafio-dev-card/assets/121054908/b66b728b-9cd5-470b-82f7-098875b3b999)
+![theultimate](https://github.com/marislaradev/profile-card/assets/121054908/be674d9d-96c1-4951-9283-8e4c5d1a9557)
 
 
 ## Ferramentas Utilizadas ⚙
